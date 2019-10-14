@@ -1,0 +1,62 @@
+body { 
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    overflow: hidden;
+   
+    background-color:rgb(174, 192, 188);
+    padding: 20px 10px;
+    position:absolute;
+    left:0;
+    top: 0;
+    height:40px;
+    width: 99%;
+  }
+  
+  .header a {
+    float: left;
+    color:rgb(15, 15, 15);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px; 
+    line-height: 25px;
+    border-radius: 6px;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: bold;
+    color:black(88, 109, 94);
+    padding-right: 16px;
+    top: 5px;
+    text-align:left;
+    left: 16px;
+    margin-left: 100px;
+    
+  }
+  
+  .header a:hover {
+    background-color:(101, 216, 139);
+    color:rgb(35, 84, 175);
+  }
+  
+ 
+  .header-right {
+    float: right;
+    padding-left: 10%;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .header-right{
+      float: none;
+    }
+}
