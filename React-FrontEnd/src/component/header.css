@@ -5,7 +5,7 @@ body {
   
   .header {
     overflow: hidden;
-   
+    /* text-emphasis: none; */
     background-color:rgb(174, 192, 188);
     padding: 40px 20px;
     position:absolute;
@@ -27,9 +27,9 @@ body {
   }
   
   .logo {
-    font-size: 48px;
-    font-weight: bold;
-    color:black(88, 109, 94);
+    font-size:200%;
+    font-weight:bold;
+    color:red(88, 109, 94);
     padding-right: 16px;
     top: 5px;
     text-align:left;

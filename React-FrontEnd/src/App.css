@@ -52,13 +52,13 @@
   padding: 40px 90px;
   box-shadow: 2px 1px;
   width: 500px;
-  height: 300px;
+  height: 400px;
   margin: 190px auto;
   position: absolute;
   left: 35%;
-  background: rgb(241, 241, 241);
+  background: rgb(174, 192, 188);
   border-radius: 21px;
-  border: 2px solid #0c0c0c;
+  border: 2px solid #000000;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .form-style-5 fieldset {
@@ -94,7 +94,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background-color: #e8eeef;
+  background-color: #ffffff;
   color:BLACK;
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   box-shadow: 3 1px 0 rgba(0, 0, 0, 0.03) inset;
@@ -193,7 +193,7 @@ td {
   margin: 80px auto;
   position: absolute;
   left: 60%;
-  background: white;
+  background: rgb(174, 192, 188)r;
   border-radius: 50px;
   border: 2px solid #08394d;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -203,12 +203,12 @@ td {
 .form-style-6 {
   padding: 40px 90px;
    box-shadow: 2px 1px; 
-  width: 600px;
+  width:600px;
   height: 1000px;
   margin: 190px auto;
   position: absolute;
   left: 35%;
-  background: rgb(241, 241, 241);
+  background: rgb(174, 192, 188);
   border-radius: 21px;
   border: 2px solid #0c0c0c;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -233,3 +233,4 @@ td {
   width: 100%;
   position: absolute;
 }
+

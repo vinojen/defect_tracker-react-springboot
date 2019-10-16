@@ -68,7 +68,7 @@ class Project extends Component {
                 <table>
                   <tr>
                     <th>
-                      <input className="btn btn-primary" type='submit' value='Add' />
+                      <input className="btn btn-info" type='submit' value='Add' />
                     </th>
                     <th>
                       <input type='submit' value='Reset' />

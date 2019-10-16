@@ -75,8 +75,8 @@ class Update extends Component {
               <div className=''>
                 <table>
                   <tr>
-                    <th>
-                      <input className='btn btn-primary' type='submit' value='Add' />
+                    <th className='btn btn-primary' >
+                      <input type='submit' value='Add' />
                     </th>
                     <th>
                       <input className='btn btn-info'
