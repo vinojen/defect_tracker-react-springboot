@@ -48,7 +48,7 @@ class Update extends Component {
         <Header />
         <Sidebar />
         <div class='maindiv'>
-          <div class='form-style-5'>
+          <div class='form-style-6'>
             <form onSubmit={this.handleadd}>
               <fieldset>
                 <legend>
@@ -72,14 +72,14 @@ class Update extends Component {
                 </textarea>
               </fieldset>
 
-              <div className='tb'>
+              <div className=''>
                 <table>
                   <tr>
                     <th>
-                      <input type='submit' value='Add' />
+                      <input className='btn btn-primary' type='submit' value='Add' />
                     </th>
                     <th>
-                      <input
+                      <input className='btn btn-info'
                         type='button'
                         value='back'
                         onClick={this.getlist}

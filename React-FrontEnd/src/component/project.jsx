@@ -64,11 +64,11 @@ class Project extends Component {
               </fieldset>
               <fieldset></fieldset>
 
-              <div className='tb'>
+              <div className=''>
                 <table>
                   <tr>
                     <th>
-                      <input type='submit' value='Add' />
+                      <input className="btn btn-primary" type='submit' value='Add' />
                     </th>
                     <th>
                       <input type='submit' value='Reset' />

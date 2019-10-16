@@ -33,7 +33,7 @@ class Sidebar extends Component {
               
 
                 <div className="dropdown">
-                <a href className="fa fa-users"> Users <i className="fa fa-caret-down"></i></a>
+                <a href="/user" className="fa fa-users"> Users <i className="fa fa-caret-down"></i></a>
                     <div className="dropdown-content">
                         <a href="/pfi">Profile</a>
                         <a href="/add">Privilages</a>
